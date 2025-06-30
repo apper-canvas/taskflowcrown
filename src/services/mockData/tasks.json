@@ -1,0 +1,76 @@
+{
+  "tasks": [
+    {
+      "Id": 1,
+      "title": "Complete project proposal for Q4 planning",
+      "category": "work",
+      "priority": "high",
+      "dueDate": "2024-01-25",
+      "completed": false,
+      "createdAt": "2024-01-20T09:00:00.000Z"
+    },
+    {
+      "Id": 2,
+      "title": "Schedule dentist appointment",
+      "category": "health",
+      "priority": "medium",
+      "dueDate": "2024-01-30",
+      "completed": false,
+      "createdAt": "2024-01-19T14:30:00.000Z"
+    },
+    {
+      "Id": 3,
+      "title": "Buy groceries for the week",
+      "category": "shopping",
+      "priority": "medium",
+      "dueDate": "2024-01-23",
+      "completed": true,
+      "createdAt": "2024-01-18T10:15:00.000Z"
+    },
+    {
+      "Id": 4,
+      "title": "Call mom for her birthday",
+      "category": "personal",
+      "priority": "high",
+      "dueDate": "2024-01-22",
+      "completed": false,
+      "createdAt": "2024-01-17T16:45:00.000Z"
+    },
+    {
+      "Id": 5,
+      "title": "Review quarterly budget spreadsheet",
+      "category": "work",
+      "priority": "medium",
+      "dueDate": null,
+      "completed": false,
+      "createdAt": "2024-01-16T11:20:00.000Z"
+    },
+    {
+      "Id": 6,
+      "title": "Book flight tickets for vacation",
+      "category": "personal",
+      "priority": "low",
+      "dueDate": "2024-02-01",
+      "completed": false,
+      "createdAt": "2024-01-15T13:00:00.000Z"
+    },
+    {
+      "Id": 7,
+      "title": "Pick up prescription from pharmacy",
+      "category": "health",
+      "priority": "high",
+      "dueDate": "2024-01-21",
+      "completed": true,
+      "createdAt": "2024-01-14T08:30:00.000Z"
+    },
+    {
+      "Id": 8,
+      "title": "Organize home office desk",
+      "category": "personal",
+      "priority": "low",
+      "dueDate": null,
+      "completed": false,
+      "createdAt": "2024-01-13T15:10:00.000Z"
+    }
+  ]
+}
