@@ -46,23 +46,23 @@ const TaskDashboard = () => {
   }
 
   // Filtered tasks
-const filteredTasks = useMemo(() => {
+  const filteredTasks = useMemo(() => {
     return tasks.filter(task => {
       // Search filter
-      const matchesSearch = task?.title?.toLowerCase().includes(searchTerm.toLowerCase()) ?? false
+      const matchesSearch = task.title.toLowerCase().includes(searchTerm.toLowerCase())
       
       // Category filter
       const matchesCategory = selectedCategory === 'all' || 
-        task?.category?.toLowerCase() === selectedCategory
+        task.category.toLowerCase() === selectedCategory
       
       // Priority filter
       const matchesPriority = selectedPriority === 'all' || 
-        task?.priority === selectedPriority
+        task.priority === selectedPriority
       
       // Status filter
       const matchesStatus = selectedStatus === 'all' ||
-        (selectedStatus === 'completed' && task?.completed) ||
-        (selectedStatus === 'pending' && !task?.completed)
+        (selectedStatus === 'completed' && task.completed) ||
+        (selectedStatus === 'pending' && !task.completed)
       
       return matchesSearch && matchesCategory && matchesPriority && matchesStatus
     })
