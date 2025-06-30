@@ -20,12 +20,12 @@ export const taskService = {
     return { ...task }
   },
 
-  async create(taskData) {
+async create(newTaskData) {
     await delay(400)
     const maxId = Math.max(...taskData.map(t => t.Id), 0)
     const newTask = {
       Id: maxId + 1,
-      ...taskData,
+      ...newTaskData,
       createdAt: new Date().toISOString()
     }
     taskData.push(newTask)
